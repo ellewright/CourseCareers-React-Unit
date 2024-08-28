@@ -6,13 +6,14 @@ import UseStateHook, { Counter } from "./components/BasicStatefulComponents/UseS
 import StateInClassComponents, { CounterClass } from "./components/BasicStatefulComponents/StateInClassComponents"
 import InputEventListeners from "./components/BasicStatefulComponents/InputEventListeners"
 import ArrayStateProject from "./components/BasicStatefulComponents/ArrayStateProject"
+import CounterWithNameProject, { CounterWithNameClass } from "./components/BasicStatefulComponents/CounterWithNameProject"
 // import user from './user.json'
 // import './styles.css'
 // import img from './img.jpg'
 
 function App() {
   return (
-    <ArrayStateProject />
+    <CounterWithNameProject />
   )
 }
 
