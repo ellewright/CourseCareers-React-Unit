@@ -9,8 +9,8 @@ import img from './img.jpg'
 function App() {
   return (
     <div>
-      {JSON.stringify(user)}
-      <img src={img}></img>
+      <NameClass>Ellie Wright</NameClass>
+      <ToDoListItemClass>Buy milk</ToDoListItemClass>
     </div>
   )
 }

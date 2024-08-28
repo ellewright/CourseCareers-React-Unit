@@ -26,15 +26,17 @@ export function ToDoListItemComponent({ children, isComplete }) {
 
 export class NameClass extends React.Component {
     render() {
-        <h1>{this.props.children}</h1>
+        return <h1>{this.props.children}</h1>
     }
 }
 
 export class ToDoListItemClass extends React.Component {
     render() {
-        <label>
-            <input type="checkbox" defaultChecked={this.props.isComplete} />
-            {this.props.children}
-        </label>
+        return (
+            <label>
+                <input type="checkbox" defaultChecked={this.props.isComplete} />
+                {this.props.children}
+            </label>
+        )
     }
 }
