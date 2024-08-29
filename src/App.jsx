@@ -14,13 +14,14 @@ import ClassComponentLifecycleMethods from "./components/ComponentLifecycle/Clas
 import DataFetchFromAPI from "./components/ComponentLifecycle/DataFetchFromAPI"
 import ConditionalRendering from "./components/AdvancedComponents/ConditionalRendering"
 import RenderingLists from "./components/AdvancedComponents/RenderingLists"
+import Fragments from "./components/AdvancedComponents/Fragments"
 // import user from './user.json'
 // import './styles.css'
 // import img from './img.jpg'
 
 function App() {
   return (
-    <RenderingLists />
+    <Fragments />
   )
 }
 
