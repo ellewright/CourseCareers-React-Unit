@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 
 export default function CounterWithNameProject() {
+    console.log("Render child.")
 
     const [name, setName] = useState("Ellie")
     const [age, setAge] = useState(24)
