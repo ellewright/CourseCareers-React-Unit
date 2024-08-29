@@ -10,13 +10,14 @@ import CounterWithNameProject, { CounterWithNameClass } from "./components/Basic
 import VirtualDom from "./components/ComponentLifecycle/VirtualDom"
 import ComponentLifecycle from "./components/ComponentLifecycle/ComponentLifecycle"
 import UseEffectHook, { UseEffectExercise } from "./components/ComponentLifecycle/UseEffectHook"
+import ClassComponentLifecycleMethods from "./components/ComponentLifecycle/ClassComponentLifecycleMethods"
 // import user from './user.json'
 // import './styles.css'
 // import img from './img.jpg'
 
 function App() {
   return (
-    <UseEffectExercise />
+    <ClassComponentLifecycleMethods />
   )
 }
 
