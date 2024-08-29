@@ -9,13 +9,14 @@ import ArrayStateProject from "./components/BasicStatefulComponents/ArrayStatePr
 import CounterWithNameProject, { CounterWithNameClass } from "./components/BasicStatefulComponents/CounterWithNameProject"
 import VirtualDom from "./components/ComponentLifecycle/VirtualDom"
 import ComponentLifecycle from "./components/ComponentLifecycle/ComponentLifecycle"
+import UseEffectHook from "./components/ComponentLifecycle/UseEffectHook"
 // import user from './user.json'
 // import './styles.css'
 // import img from './img.jpg'
 
 function App() {
   return (
-    <ComponentLifecycle />
+    <UseEffectHook />
   )
 }
 

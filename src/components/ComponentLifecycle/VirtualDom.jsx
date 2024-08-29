@@ -4,7 +4,7 @@ import CounterWithNameProject from "../BasicStatefulComponents/CounterWithNamePr
 export default function VirtualDom() {
     const [appCount, setAppCount] = useState(0)
 
-    console.log("Render app.")
+    // console.log("Render app.")
     return (
         <div>
             <button
