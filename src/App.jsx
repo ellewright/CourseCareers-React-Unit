@@ -16,13 +16,14 @@ import ConditionalRendering from "./components/AdvancedComponents/ConditionalRen
 import RenderingLists from "./components/AdvancedComponents/RenderingLists"
 import Fragments from "./components/AdvancedComponents/Fragments"
 import UserListProject from "./components/AdvancedComponents/UserListProject"
+import RenderRawHTML from "./components/AdvancedComponents/RenderRawHTML"
 // import user from './user.json'
 // import './styles.css'
 // import img from './img.jpg'
 
 function App() {
   return (
-    <UserListProject />
+    <RenderRawHTML />
   )
 }
 
