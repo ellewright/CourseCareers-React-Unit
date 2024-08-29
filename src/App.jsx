@@ -17,7 +17,7 @@ import ClassComponentLifecycleMethods from "./components/ComponentLifecycle/Clas
 
 function App() {
   return (
-    <ClassComponentLifecycleMethods />
+    <UseEffectExercise />
   )
 }
 

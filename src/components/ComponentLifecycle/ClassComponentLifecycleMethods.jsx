@@ -53,6 +53,10 @@ export class Child extends React.Component {
         console.log("Bye.")
     }
 
+    // UNSAFE_componentWillMount() {
+    //     console.log("Should throw error in StrictMode.")
+    // }
+
     render() {
         return (
             <div>

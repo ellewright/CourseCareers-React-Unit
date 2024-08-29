@@ -60,13 +60,13 @@ function Child() {
     const [age, setAge] = useState(0)
     const [name, setName] = useState("")
 
-    // useEffect(() => {
-    //     console.log("Hi.")
+    useEffect(() => {
+        console.log("Mount.")
 
-    //     return () => {
-    //         console.log("Bye.")
-    //     }
-    // }, [])
+        return () => {
+            console.log("Unmount.")
+        }
+    }, [])
 
     // useEffect(() => {
     //     console.log("Render.")
@@ -80,15 +80,15 @@ function Child() {
     //     document.title = name
     // }, [name])
 
-    useEffect(() => {
-        const timeout = setTimeout(() => {
-            console.log(`My name is ${name}.`)
-        }, 1000)
+    // useEffect(() => {
+    //     const timeout = setTimeout(() => {
+    //         console.log(`My name is ${name}.`)
+    //     }, 1000)
 
-        return () => {
-            clearTimeout(timeout)
-        }
-    }, [name])
+    //     return () => {
+    //         clearTimeout(timeout)
+    //     }
+    // }, [name])
 
     return (
         <div>
