@@ -11,13 +11,14 @@ import VirtualDom from "./components/ComponentLifecycle/VirtualDom"
 import ComponentLifecycle from "./components/ComponentLifecycle/ComponentLifecycle"
 import UseEffectHook, { UseEffectExercise } from "./components/ComponentLifecycle/UseEffectHook"
 import ClassComponentLifecycleMethods from "./components/ComponentLifecycle/ClassComponentLifecycleMethods"
+import DataFetchFromAPI from "./components/ComponentLifecycle/DataFetchFromAPI"
 // import user from './user.json'
 // import './styles.css'
 // import img from './img.jpg'
 
 function App() {
   return (
-    <UseEffectExercise />
+    <DataFetchFromAPI />
   )
 }
 
