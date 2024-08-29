@@ -8,13 +8,14 @@ import InputEventListeners from "./components/BasicStatefulComponents/InputEvent
 import ArrayStateProject from "./components/BasicStatefulComponents/ArrayStateProject"
 import CounterWithNameProject, { CounterWithNameClass } from "./components/BasicStatefulComponents/CounterWithNameProject"
 import VirtualDom from "./components/ComponentLifecycle/VirtualDom"
+import ComponentLifecycle from "./components/ComponentLifecycle/ComponentLifecycle"
 // import user from './user.json'
 // import './styles.css'
 // import img from './img.jpg'
 
 function App() {
   return (
-    <VirtualDom />
+    <ComponentLifecycle />
   )
 }
 
