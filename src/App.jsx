@@ -12,13 +12,14 @@ import ComponentLifecycle from "./components/ComponentLifecycle/ComponentLifecyc
 import UseEffectHook, { UseEffectExercise } from "./components/ComponentLifecycle/UseEffectHook"
 import ClassComponentLifecycleMethods from "./components/ComponentLifecycle/ClassComponentLifecycleMethods"
 import DataFetchFromAPI from "./components/ComponentLifecycle/DataFetchFromAPI"
+import ConditionalRendering from "./components/AdvancedComponents/ConditionalRendering"
 // import user from './user.json'
 // import './styles.css'
 // import img from './img.jpg'
 
 function App() {
   return (
-    <DataFetchFromAPI />
+    <ConditionalRendering />
   )
 }
 
