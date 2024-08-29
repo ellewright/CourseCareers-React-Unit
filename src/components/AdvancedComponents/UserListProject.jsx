@@ -43,7 +43,7 @@ export default function UserListProject() {
                 ? <h2>Loading...</h2>
                 : <ul>
                     {users.map(user => {
-                        return <User key={user.id} name={user.name} />
+                        return <User key={user.id} {...user} /> // Spread Prop
                     })}
                 </ul>
             }
@@ -52,6 +52,6 @@ export default function UserListProject() {
     )
 }
 
-function User({ name }) {
-    return <li>{name}</li>
+function User({ name, email, username, phone }) {
+    return <li>{name}, {email}, {username}, {phone}</li>
 }
