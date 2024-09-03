@@ -17,13 +17,14 @@ import RenderingLists from "./components/AdvancedComponents/RenderingLists"
 import Fragments from "./components/AdvancedComponents/Fragments"
 import UserListProject from "./components/AdvancedComponents/UserListProject"
 import RenderRawHTML from "./components/AdvancedComponents/RenderRawHTML"
+import HookRules from "./components/BasicHooks/HookRules"
 // import user from './user.json'
 // import './styles.css'
 // import img from './img.jpg'
 
 function App() {
   return (
-    <RenderRawHTML />
+    <HookRules />
   )
 }
 
