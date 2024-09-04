@@ -20,13 +20,14 @@ import RenderRawHTML from "./components/AdvancedComponents/RenderRawHTML"
 import HookRules from "./components/BasicHooks/HookRules"
 import UseRefHook from "./components/BasicHooks/UseRefHook"
 import RefsInClassComponents from "./components/BasicHooks/RefsInClassComponents"
+import UseMemoHook from "./components/BasicHooks/UseMemoHook"
 // import user from './user.json'
 // import './styles.css'
 // import img from './img.jpg'
 
 function App() {
   return (
-    <RefsInClassComponents />
+    <UseMemoHook />
   )
 }
 
