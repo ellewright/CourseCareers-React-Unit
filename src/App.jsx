@@ -1,7 +1,7 @@
 import React from "react"
-import JSXBasics from "./components/JSXBasics"
-import CreatingComponents from "./components/CreatingComponents"
-import Props, { RenderChildFunc, ToDoListItemComponent, NameClass, ToDoListItemClass } from "./components/Props"
+import JSXBasics from "./components/BasicComponents/JSXBasics"
+import CreatingComponents from "./components/BasicComponents/CreatingComponents"
+import Props, { RenderChildFunc, ToDoListItemComponent, NameClass, ToDoListItemClass } from "./components/BasicComponents/Props"
 import UseStateHook, { Counter } from "./components/BasicStatefulComponents/UseStateHook"
 import StateInClassComponents, { CounterClass } from "./components/BasicStatefulComponents/StateInClassComponents"
 import InputEventListeners from "./components/BasicStatefulComponents/InputEventListeners"
@@ -27,7 +27,7 @@ import UseMemoHook from "./components/BasicHooks/UseMemoHook"
 
 function App() {
   return (
-    <UseMemoHook />
+    <></>
   )
 }
 
