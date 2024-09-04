@@ -21,13 +21,14 @@ import HookRules from "./components/BasicHooks/HookRules"
 import UseRefHook from "./components/BasicHooks/UseRefHook"
 import RefsInClassComponents from "./components/BasicHooks/RefsInClassComponents"
 import UseMemoHook from "./components/BasicHooks/UseMemoHook"
+import UseCallbackHook from "./components/BasicHooks/UseCallbackHook"
 // import user from './user.json'
 // import './styles.css'
 // import img from './img.jpg'
 
 function App() {
   return (
-    <></>
+    <UseCallbackHook />
   )
 }
 
