@@ -1,6 +1,6 @@
-# React + Vite
+# CourseCareers React Unit
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a sandbox Vite project to be used for practice within the React unit of the CourseCareers Frontend Software Development course.
 
 Currently, two official plugins are available:
 
