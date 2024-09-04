@@ -23,13 +23,14 @@ import RefsInClassComponents from "./components/BasicHooks/RefsInClassComponents
 import UseMemoHook from "./components/BasicHooks/UseMemoHook"
 import UseCallbackHook from "./components/BasicHooks/UseCallbackHook"
 import CustomHooks from "./components/BasicHooks/CustomHooks"
+import UseFetchProject from "./components/BasicHooks/UseFetchProject"
 // import user from './user.json'
 // import './styles.css'
 // import img from './img.jpg'
 
 function App() {
   return (
-    <CustomHooks />
+    <UseFetchProject />
   )
 }
 
