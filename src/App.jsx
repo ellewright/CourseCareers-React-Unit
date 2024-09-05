@@ -27,13 +27,14 @@ import UseFetchProject from "./components/BasicHooks/UseFetchProject"
 import UseArrayProject from "./components/BasicHooks/UseArrayProject"
 import UseLocalStorageProject from "./components/BasicHooks/UseLocalStorageProject"
 import FormBasics from "./components/Forms/FormBasics"
+import UseStateVsUseRef from "./components/Forms/UseStateVsUseRef"
 // import user from './user.json'
 // import './styles.css'
 // import img from './img.jpg'
 
 function App() {
   return (
-    <FormBasics />
+    <UseStateVsUseRef />
   )
 }
 
