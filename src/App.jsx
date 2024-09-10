@@ -31,14 +31,15 @@ import React from "react"
 // import BasicFormValidationProject from "./components/Forms/BasicFormValidationProject/BasicFormValidationProject"
 // import ReactHookForm from "./components/Forms/ReactHookForm/ReactHookForm"
 // import UseReducerHook, { UseFetchWithReducer } from "./components/AdvancedStatefulComponents/UseReducerHook"
-import UseContextHook from "./components/AdvancedStatefulComponents/UseContextHook"
+// import UseContextHook from "./components/AdvancedStatefulComponents/UseContextHook"
+import NeverStoreDerivedState from "./components/AdvancedStatefulComponents/NeverStoreDerivedState"
 // import user from './user.json'
 // import './styles.css'
 // import img from './img.jpg'
 
 function App() {
   return (
-    <UseContextHook />
+    <NeverStoreDerivedState />
   )
 }
 
