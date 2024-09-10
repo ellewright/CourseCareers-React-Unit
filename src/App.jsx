@@ -29,14 +29,15 @@ import React from "react"
 // import FormBasics from "./components/Forms/FormBasics"
 // import UseStateVsUseRef from "./components/Forms/UseStateVsUseRef"
 // import BasicFormValidationProject from "./components/Forms/BasicFormValidationProject/BasicFormValidationProject"
-import ReactHookForm from "./components/Forms/ReactHookForm/ReactHookForm"
+// import ReactHookForm from "./components/Forms/ReactHookForm/ReactHookForm"
+import UseReducerHook, { UseFetchWithReducer } from "./components/AdvancedStatefulComponents/UseReducerHook"
 // import user from './user.json'
 // import './styles.css'
 // import img from './img.jpg'
 
 function App() {
   return (
-    <ReactHookForm />
+    <UseFetchWithReducer />
   )
 }
 
