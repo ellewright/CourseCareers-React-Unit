@@ -32,14 +32,15 @@ import React from "react"
 // import ReactHookForm from "./components/Forms/ReactHookForm/ReactHookForm"
 // import UseReducerHook, { UseFetchWithReducer } from "./components/AdvancedStatefulComponents/UseReducerHook"
 // import UseContextHook from "./components/AdvancedStatefulComponents/UseContextHook"
-import NeverStoreDerivedState from "./components/AdvancedStatefulComponents/NeverStoreDerivedState"
+// import NeverStoreDerivedState from "./components/AdvancedStatefulComponents/NeverStoreDerivedState"
+import EnvironmentVariables from "./components/AdvancedStatefulComponents/EnvironmentVariables"
 // import user from './user.json'
 // import './styles.css'
 // import img from './img.jpg'
 
 function App() {
   return (
-    <NeverStoreDerivedState />
+    <EnvironmentVariables />
   )
 }
 
