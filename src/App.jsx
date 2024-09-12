@@ -36,7 +36,6 @@ import React from "react"
 // import EnvironmentVariables from "./components/AdvancedStatefulComponents/EnvironmentVariables"
 // import AdvancedTodoListProject from "./components/AdvancedStatefulComponents/AdvancedTodoListProject/AdvancedTodoListProject"
 // import RoutingWithoutALibrary from "./components/Routing/RoutingWithoutALibrary"
-// import ReactRouterBasics from "./components/Routing/ReactRouterBasics"
 // import user from './user.json'
 // import './styles.css'
 // import img from './img.jpg'
