@@ -36,7 +36,8 @@ import React from "react"
 // import EnvironmentVariables from "./components/AdvancedStatefulComponents/EnvironmentVariables"
 // import AdvancedTodoListProject from "./components/AdvancedStatefulComponents/AdvancedTodoListProject/AdvancedTodoListProject"
 // import RoutingWithoutALibrary from "./components/Routing/RoutingWithoutALibrary"
-import Portals from "./components/AdvancedReactConcepts/Portals/Portals"
+// import Portals from "./components/AdvancedReactConcepts/Portals/Portals"
+import ForwardRef from "./components/AdvancedReactConcepts/forwardRef/ForwardRef"
 // import user from './user.json'
 // import './styles.css'
 // import img from './img.jpg'
@@ -44,7 +45,7 @@ import Portals from "./components/AdvancedReactConcepts/Portals/Portals"
 function App() {
   return (
     <>
-      <Portals />
+      <ForwardRef />
     </>
   )
 }
