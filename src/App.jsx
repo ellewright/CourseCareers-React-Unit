@@ -38,16 +38,14 @@ import React from "react"
 // import RoutingWithoutALibrary from "./components/Routing/RoutingWithoutALibrary"
 // import Portals from "./components/AdvancedReactConcepts/Portals/Portals"
 // import ForwardRef from "./components/AdvancedReactConcepts/forwardRef/ForwardRef"
-import Modal from "./components/AdvancedReactConcepts/Modal/Modal"
+// import Modal from "./components/AdvancedReactConcepts/Modal/Modal"
 // import user from './user.json'
 // import './styles.css'
 // import img from './img.jpg'
 
 function App() {
   return (
-    <>
-      <Modal />
-    </>
+    <></>
   )
 }
 
