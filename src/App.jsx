@@ -37,7 +37,8 @@ import React from "react"
 // import AdvancedTodoListProject from "./components/AdvancedStatefulComponents/AdvancedTodoListProject/AdvancedTodoListProject"
 // import RoutingWithoutALibrary from "./components/Routing/RoutingWithoutALibrary"
 // import Portals from "./components/AdvancedReactConcepts/Portals/Portals"
-import ForwardRef from "./components/AdvancedReactConcepts/forwardRef/ForwardRef"
+// import ForwardRef from "./components/AdvancedReactConcepts/forwardRef/ForwardRef"
+import Modal from "./components/AdvancedReactConcepts/Modal/Modal"
 // import user from './user.json'
 // import './styles.css'
 // import img from './img.jpg'
@@ -45,7 +46,7 @@ import ForwardRef from "./components/AdvancedReactConcepts/forwardRef/ForwardRef
 function App() {
   return (
     <>
-      <ForwardRef />
+      <Modal />
     </>
   )
 }
