@@ -6,6 +6,6 @@ import { router } from './components/Routing/Loaders/Loaders'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode> {/* StrictMode mounts, unmounts, then remounts immediately */}
-    <RouterProvider router={router} /> {/* Only in dev: it is good at detecting bugs this way */}
+    <App />
   </StrictMode>
 )
