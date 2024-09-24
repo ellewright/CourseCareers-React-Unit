@@ -39,14 +39,15 @@ import React from "react"
 // import Portals from "./components/AdvancedReactConcepts/Portals/Portals"
 // import ForwardRef from "./components/AdvancedReactConcepts/forwardRef/ForwardRef"
 // import Modal from "./components/AdvancedReactConcepts/Modal/Modal"
-import AdvancedKeyUses from "./components/AdvancedReactConcepts/AdvancedKeyUses/AdvancedKeyUses"
+// import AdvancedKeyUses from "./components/AdvancedReactConcepts/AdvancedKeyUses/AdvancedKeyUses"
+import CaptureEventListeners from "./components/AdvancedReactConcepts/CaptureEventListeners/CaptureEventListeners"
 // import user from './user.json'
 // import './styles.css'
 // import img from './img.jpg'
 
 function App() {
   return (
-    <AdvancedKeyUses />
+    <CaptureEventListeners />
   )
 }
 
