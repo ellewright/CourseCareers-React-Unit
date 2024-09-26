@@ -40,14 +40,15 @@ import React from "react"
 // import ForwardRef from "./components/AdvancedReactConcepts/forwardRef/ForwardRef"
 // import Modal from "./components/AdvancedReactConcepts/Modal/Modal"
 // import AdvancedKeyUses from "./components/AdvancedReactConcepts/AdvancedKeyUses/AdvancedKeyUses"
-import CaptureEventListeners from "./components/AdvancedReactConcepts/CaptureEventListeners/CaptureEventListeners"
+// import CaptureEventListeners from "./components/AdvancedReactConcepts/CaptureEventListeners/CaptureEventListeners"
+import DatePickerProject from "./components/AdvancedReactConcepts/DatePicker/DatePicker"
 // import user from './user.json'
 // import './styles.css'
 // import img from './img.jpg'
 
 function App() {
   return (
-    <CaptureEventListeners />
+    <DatePickerProject />
   )
 }
 
