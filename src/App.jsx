@@ -43,14 +43,15 @@ import React from "react"
 // import CaptureEventListeners from "./components/AdvancedReactConcepts/CaptureEventListeners/CaptureEventListeners"
 // import DatePickerProject from "./components/AdvancedReactConcepts/DatePicker/DatePicker"
 // import UseLayoutEffect from "./components/AdvancedHooks/useLayoutEffect/UseLayoutEffect"
-import UseDebugValue from "./components/AdvancedHooks/useDebugValue/UseDebugValue"
+// import UseDebugValue from "./components/AdvancedHooks/useDebugValue/UseDebugValue"
+import UseId from "./components/AdvancedHooks/useId/UseId"
 // import user from './user.json'
 // import './styles.css'
 // import img from './img.jpg'
 
 function App() {
   return (
-    <UseDebugValue />
+    <UseId />
   )
 }
 
