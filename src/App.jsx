@@ -41,14 +41,15 @@ import React from "react"
 // import Modal from "./components/AdvancedReactConcepts/Modal/Modal"
 // import AdvancedKeyUses from "./components/AdvancedReactConcepts/AdvancedKeyUses/AdvancedKeyUses"
 // import CaptureEventListeners from "./components/AdvancedReactConcepts/CaptureEventListeners/CaptureEventListeners"
-import DatePickerProject from "./components/AdvancedReactConcepts/DatePicker/DatePicker"
+// import DatePickerProject from "./components/AdvancedReactConcepts/DatePicker/DatePicker"
+import UseLayoutEffect from "./components/AdvancedHooks/useLayoutEffect/UseLayoutEffect"
 // import user from './user.json'
 // import './styles.css'
 // import img from './img.jpg'
 
 function App() {
   return (
-    <DatePickerProject />
+    <UseLayoutEffect />
   )
 }
 
