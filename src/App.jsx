@@ -46,14 +46,15 @@ import React from "react"
 // import UseDebugValue from "./components/AdvancedHooks/useDebugValue/UseDebugValue"
 // import UseId from "./components/AdvancedHooks/useId/UseId"
 // import UseImperativeHandle from "./components/AdvancedHooks/useImperativeHandle/UseImperativeHandle"
-import UseCallbackAsRef from "./components/AdvancedHooks/useCallbackAsRef/UseCallbackAsRef"
+// import UseCallbackAsRef from "./components/AdvancedHooks/useCallbackAsRef/UseCallbackAsRef"
+import CSSModules from "./components/CSSAlternatives/CSSModules/CSSModules"
 // import user from './user.json'
-// import './styles.css'
+import './styles.css'
 // import img from './img.jpg'
 
 function App() {
   return (
-    <UseCallbackAsRef />
+    <CSSModules />
   )
 }
 
