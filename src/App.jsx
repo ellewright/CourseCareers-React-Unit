@@ -47,14 +47,15 @@ import React from "react"
 // import UseId from "./components/AdvancedHooks/useId/UseId"
 // import UseImperativeHandle from "./components/AdvancedHooks/useImperativeHandle/UseImperativeHandle"
 // import UseCallbackAsRef from "./components/AdvancedHooks/useCallbackAsRef/UseCallbackAsRef"
-import CSSModules from "./components/CSSAlternatives/CSSModules/CSSModules"
+// import CSSModules from "./components/CSSAlternatives/CSSModules/CSSModules"
+import CSSInJS from "./components/CSSAlternatives/CSSInJS/CSSinJS"
 // import user from './user.json'
-import './styles.css'
+// import './styles.css'
 // import img from './img.jpg'
 
 function App() {
   return (
-    <CSSModules />
+    <CSSInJS />
   )
 }
 
