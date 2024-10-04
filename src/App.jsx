@@ -50,14 +50,15 @@ import React from "react"
 // import CSSModules from "./components/CSSAlternatives/CSSModules/CSSModules"
 // import CSSInJS from "./components/CSSAlternatives/CSSInJS/CSSinJS"
 // import UtilityCSS from "./components/CSSAlternatives/UtilityCSS/UtilityCSS"
-import CSSFrameworks from "./components/CSSAlternatives/CSSFrameworks/CSSFrameworks"
+// import CSSFrameworks from "./components/CSSAlternatives/CSSFrameworks/CSSFrameworks"
+import PropTypes from "./components/TypeSafety/PropTypes/PropTypes"
 // import user from './user.json'
 // import './styles.css'
 // import img from './img.jpg'
 
 function App() {
   return (
-    <CSSFrameworks />
+    <PropTypes />
   )
 }
 
