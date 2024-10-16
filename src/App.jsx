@@ -51,14 +51,15 @@ import React from "react"
 // import CSSInJS from "./components/CSSAlternatives/CSSInJS/CSSinJS"
 // import UtilityCSS from "./components/CSSAlternatives/UtilityCSS/UtilityCSS"
 // import CSSFrameworks from "./components/CSSAlternatives/CSSFrameworks/CSSFrameworks"
-import PropTypes from "./components/TypeSafety/PropTypes/PropTypes"
+// import PropTypes from "./components/TypeSafety/PropTypes/PropTypes"
+import ReactMemo from "./components/Performance/React.memo/ReactMemo"
 // import user from './user.json'
 // import './styles.css'
 // import img from './img.jpg'
 
 function App() {
   return (
-    <PropTypes />
+    <ReactMemo />
   )
 }
 
