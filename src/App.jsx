@@ -53,13 +53,14 @@ import React from "react"
 // import CSSFrameworks from "./components/CSSAlternatives/CSSFrameworks/CSSFrameworks"
 // import PropTypes from "./components/TypeSafety/PropTypes/PropTypes"
 import ReactMemo from "./components/Performance/React.memo/ReactMemo"
+import PureComponent from "./components/Performance/PureComponent/PureComponent"
 // import user from './user.json'
 // import './styles.css'
 // import img from './img.jpg'
 
 function App() {
   return (
-    <ReactMemo />
+    <PureComponent />
   )
 }
 
