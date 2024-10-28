@@ -52,15 +52,16 @@ import React from "react"
 // import UtilityCSS from "./components/CSSAlternatives/UtilityCSS/UtilityCSS"
 // import CSSFrameworks from "./components/CSSAlternatives/CSSFrameworks/CSSFrameworks"
 // import PropTypes from "./components/TypeSafety/PropTypes/PropTypes"
-import ReactMemo from "./components/Performance/React.memo/ReactMemo"
+// import ReactMemo from "./components/Performance/React.memo/ReactMemo"
 import PureComponent from "./components/Performance/PureComponent/PureComponent"
+import AsProp from "./components/CleanCode/AsProp/AsProp"
 // import user from './user.json'
 // import './styles.css'
 // import img from './img.jpg'
 
 function App() {
   return (
-    <PureComponent />
+    <AsProp />
   )
 }
 
