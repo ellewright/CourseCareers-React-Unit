@@ -1,18 +1,63 @@
-import "./user.css"
-import user from "./user.json"
+import useLocalStorage from "../../hooks/useLocalStorage";
 
 export default function Sandbox() {
+    const [firstName, setFirstName] = useLocalStorage("FIRST_NAME", "")
+
+    // Bonus:
+    const [lastName, setLastName] = useLocalStorage("LAST_NAME", () => {
+        return "Default"
+    })
+
+    // Bonus:
+    const [hobbies, setHobbies] = useLocalStorage("HOBBIES", [
+        "Programming",
+        "Weight Lifting",
+    ])
+
     return (
-        <div className="card">
-            <h2 className="name">{user.name}</h2>
-            <div className="body">
-                <div className="label">Age:</div>
-                <div>{user.age}</div>
-                <div className="label">Phone:</div>
-                <div>{user.phoneNumber}</div>
-                <div className="label">Address:</div>
-                <div>{user.address}</div>
+        <>
+            <div
+                style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    marginBottom: "1rem",
+                }}
+            >
+                <label>First Name</label>
+                <input
+                    type="text"
+                    value={firstName}
+                    onChange={e => setFirstName(e.target.value)}
+                />
             </div>
-        </div>
+
+            {/* Bonus: */}
+            <div
+                style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    marginBottom: "1rem",
+                }}
+            >
+                <label>Last Name</label>
+                <input
+                    type="text"
+                    value={lastName}
+                    onChange={e => setLastName(e.target.value)}
+                />
+            </div>
+
+            {/* Bonus: */}
+            <div>{hobbies.join(", ")}</div>
+            <button
+                onClick={() =>
+                    setHobbies(currentHobbies => [...currentHobbies, "New Hobby"])
+                }
+            >
+                Add Hobby
+            </button>
+        </>
     )
 }
